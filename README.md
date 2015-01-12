@@ -16,8 +16,8 @@ New name courtesy of Jason Behmer.
 (<a href="http://www.google.com/chrome">Chrome</a> or
  <a href="http://www.firefox.com">Firefox</a> +
  <a href="https://addons.mozilla.org/en-US/firefox/addon/748">Greasemonkey</a>)
-            
-<a href="javascript:(function(){var script=document.createElement('script');script.src='http://sean.anasta.si/projects/dom-destroyer/src/dom-destroyer.user.js';document.body.appendChild(script);})()">Click to play</a><br />
+
+<a href="http://sean.anasta.si/projects/dom-destroyer/">Try it our here</a>
 (Any browser supporting the HTML5 canvas tag)
 
 ## Features/Ideas TODO:
