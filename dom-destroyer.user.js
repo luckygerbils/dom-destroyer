@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name        Dom Destroyer
-// @namespace   www.SeanAnastasi.com
+// @namespace   sean.anasta.si
 // @description Fight to defend your computer from the evil internet!
 // @include     http://localhost:90/*
-// @require     http://www.SeanAnastasi.com/js/jquery-1.4.2-GM.min.js
-// @resource    stylesheet http://www.SeanAnastasi.com/projects/dom-destroyer/dom-destroyer.css
+// @require     http://sean.anasta.si/js/jquery-1.4.2-GM.min.js
+// @resource    stylesheet http://sean.anasta.si/projects/dom-destroyer/dom-destroyer.css
 // ==/UserScript==
 if (window.domDestroyer === undefined); // Only load once.
 (function () {
@@ -25,7 +25,7 @@ if (window.domDestroyer === undefined); // Only load once.
     loading.appendChild(document.createTextNode("Loading..."));
     document.body.appendChild(loading);
     
-    var HOSTNAME   = 'www.SeanAnastasi.com'
+    var HOSTNAME   = 'sean.anasta.si'
     var PREFIX     = '/projects/dom-destroyer'
     var JQUERY     = 'http://' + HOSTNAME + '/js/jquery-1.4.2-GM.min.js';
     var STYLESHEET = 'http://' + HOSTNAME + PREFIX + '/dom-destroyer.css';
